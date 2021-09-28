@@ -10,6 +10,8 @@ html, body {
       background: linear-gradient(-45deg, #000000, #082032, #334756, #556673);
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
+      text-align: center;
+      color: #fff;
   }
   
   @keyframes gradient {
@@ -30,23 +32,15 @@ h1 {
     color: #fff;
 }
 
-p {
-    color: #C7C7C5;
-}
-
 .cover-container {
   max-width: 70em;
 }
 
-
-/*
- * Header
- */
-
-h3 {
-    color: #fff;
+.mb-auto {
+  padding-bottom: 50px;
 }
 
+/* Header*/
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
@@ -69,8 +63,65 @@ h3 {
   border-bottom-color: #fff;
 }
 
+/* Title */
+.main-title {
+  font-size: 70px;
+}
+
+.lead {
+  font-size: 35px;
+  color: #C7C7C5;
+}
+
+@media (max-width: 810px){
+  .main-title {
+    font-size: 50px;
+  }
+
+  .logo {
+    padding-bottom: 30px;
+  }
+
+  .lead {
+    font-size: 25px;
+  }
+
+}
+
+/* Projects*/
+.projects-box {
+  padding: 7%;
+}
+
+.project-title {
+  font-size: 60px;
+  text-align: center;
+}
+
+.card-title, .card-text {
+  color: #000000;
+}
+
+.card-img-top {
+  max-width: 228px;
+  max-height: 176px;
+  padding-bottom: 10px;
+}
+
+.project-item {
+  padding-bottom: 20px;
+}
+
 /* Socials */
 .socials {
-    padding: 10%;
-    color: #C7C7C5;
+  padding: 2%;
+}
+
+.social-icon {
+  color: #334756;
+  padding: 10px;
+}
+
+.social-icon:hover {
+  color: #fff;
 }
