@@ -16,13 +16,13 @@ html, body {
   
   @keyframes gradient {
       0% {
-          background-position: 0% 50%;
+          background-position: 0% 25%;
       }
       50% {
-          background-position: 100% 50%;
+          background-position: 100% 25%;
       }
       100% {
-          background-position: 0% 50%;
+          background-position: 0% 25%;
       }
   }
 
@@ -64,6 +64,11 @@ h1 {
 }
 
 /* Title */
+.title {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
 .main-title {
   font-size: 70px;
 }
@@ -93,11 +98,6 @@ h1 {
   padding: 7%;
 }
 
-.project-title {
-  font-size: 60px;
-  text-align: center;
-  padding-bottom: 20px;
-}
 
 .text-white {
   text-decoration: none;
